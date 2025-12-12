@@ -8,4 +8,3 @@ def load_task():
         return []
     with open (task_files, "r") as f:
         return json.load(f)
-    
